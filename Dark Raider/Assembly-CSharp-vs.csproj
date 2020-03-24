@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\PingPongMovement.cs" />
      <Compile Include="Assets\Scripts\PleyerController.cs" />
+     <Compile Include="Assets\Scripts\QuestManager.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
