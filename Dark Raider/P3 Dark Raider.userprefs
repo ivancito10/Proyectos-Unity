@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PingPongMovement.cs">
+    <Files>
+      <File FileName="Assets\Scripts\GiveQuest.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ammo.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AmmoSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DestroyOnCollider.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Door.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GiveItem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\HealthBar.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\KillZone.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PingPongMovement.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

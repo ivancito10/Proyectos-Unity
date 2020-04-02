@@ -51,6 +51,8 @@
      <Compile Include="Assets\Scripts\CameraFolow.cs" />
      <Compile Include="Assets\Scripts\DestroyOnCollider.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
+     <Compile Include="Assets\Scripts\GiveItem.cs" />
+     <Compile Include="Assets\Scripts\GiveQuest.cs" />
      <Compile Include="Assets\Scripts\HealtBarGreen.cs" />
      <Compile Include="Assets\Scripts\KillZone.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />

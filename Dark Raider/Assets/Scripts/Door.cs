@@ -8,6 +8,8 @@ public class Door : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D otherCollider){
 		if (!otherCollider.CompareTag ("Player"))
 			return;
+
 		Application.LoadLevel (levelID);
 	}
+
 }

@@ -11,6 +11,6 @@ public class DestroyOnCollider : MonoBehaviour {
 			return;
 
 		Destroy (gameObject);
-
 	}
+
 }

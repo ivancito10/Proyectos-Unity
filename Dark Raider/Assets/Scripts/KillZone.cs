@@ -5,15 +5,18 @@ public class KillZone : MonoBehaviour {
 
 	public float damage = 100.0f;
 
-	void OnTiggerStay2D(Collider2D otherCollider){
-	
+
+	void OnTriggerStay2D(Collider2D otherCollider){
+
 		if (!otherCollider.CompareTag ("Player"))
 			return;
 
 
-		if (PleyerController.player != null) {
-		
-			PleyerController.Health -= damage * Time.deltaTime;
+		if (PlayerController.player != null) {
+			PlayerController.Health -= damage * Time.deltaTime;
 		}
+
 	}
+
+
 }

@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 94c37e3d24cf5144f83771da545ebea4
-timeCreated: 1581817453
-licenseType: Pro
+guid: 0c164cd8342a34a5b9f16b2c4b035963
+timeCreated: 1476903398
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: head
     21300002: arm
-    21300004: leg
-    21300006: body
+    21300004: body
+    21300006: leg
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -21,13 +21,13 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
+  cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
@@ -41,29 +41,36 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
+  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: head
+    - serializedVersion: 2
+      name: head
       rect:
         serializedVersion: 2
         x: 4
         y: 7
-        width: 86
+        width: 88
         height: 95
       alignment: 9
-      pivot: {x: .442578256, y: .0763482153}
+      pivot: {x: 0.39882568, y: 0.08784776}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: arm
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: arm
       rect:
         serializedVersion: 2
         x: 95
@@ -71,28 +78,37 @@ TextureImporter:
         width: 22
         height: 36
       alignment: 9
-      pivot: {x: .825477242, y: .890946507}
+      pivot: {x: 0.83111644, y: 0.90469766}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: leg
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: body
       rect:
         serializedVersion: 2
-        x: 92
-        y: 4
-        width: 26
-        height: 27
+        x: 91
+        y: 31
+        width: 34
+        height: 42
       alignment: 9
-      pivot: {x: .414530247, y: .874943018}
+      pivot: {x: 0.49999976, y: 0.09530286}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: body
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: leg
       rect:
         serializedVersion: 2
         x: 90
-        y: 31
-        width: 33
-        height: 40
+        y: 2
+        width: 30
+        height: 29
       alignment: 9
-      pivot: {x: .485035509, y: .172839552}
+      pivot: {x: 0.43929544, y: 0.87678736}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
   spritePackingTag: Props
   userData: 
   assetBundleName: 
