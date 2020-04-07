@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour {
 	private Transform theTransform = null;
 	public BoxCollider2D feetCollider = null;
 	public LayerMask groundLayer; 
+	//public GameObject Reset1;
 
 
 	public static float Health {
@@ -42,6 +43,8 @@ public class PlayerController : MonoBehaviour {
 
 			if (_health <= 0) {
 				Die ();
+
+
 			}
 		}
 	}
@@ -122,6 +125,9 @@ public class PlayerController : MonoBehaviour {
 
 	void OnDestroy(){
 		player = null;
+		//over.show ();
+		//Reset1.gameObject.SetActive(true);
+
 	}
 
 
@@ -131,5 +137,11 @@ public class PlayerController : MonoBehaviour {
 
 	public static void Reset(){
 		Health = 100.0f;
+
 	}
+
+	//public static void Start()
+	//{
+	//	Reset1.gameObject.SetActive (false);
+	//}
 }

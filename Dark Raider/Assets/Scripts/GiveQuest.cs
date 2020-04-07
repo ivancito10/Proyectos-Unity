@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GiveQuest : MonoBehaviour {
@@ -24,9 +25,12 @@ public class GiveQuest : MonoBehaviour {
 		if (status == Quest.QUEST_STATUS.UNASSIGNED)
 			QuestManager.SetQuestStatus (questName, Quest.QUEST_STATUS.ASSIGNED);
 
-		if (status == Quest.QUEST_STATUS.COMPLETED)
-			Application.LoadLevel (5);//Acordarme de poner de pantalla de victoria la de nivel 5!!!
-
+		if (status == Quest.QUEST_STATUS.COMPLETED) {
+			SceneManager.LoadScene ("Victoria");
+			QuestManager.SetQuestStatus (questName, Quest.QUEST_STATUS.UNASSIGNED);
+			//Application.LoadLevel (5);//Acordarme de poner de pantalla de victoria la de nivel 5!!!
+		}
+			
 	}
 
 
